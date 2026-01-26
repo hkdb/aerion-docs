@@ -17,6 +17,8 @@ These work anywhere in the application (unless you're typing in a text field).
 | `Ctrl+Q` | Quit application |
 | `Ctrl+N` | Compose new message |
 | `Ctrl+S` | Focus search bar |
+| `Ctrl+Shift+A` | Sync all accounts |
+| `Ctrl+Shift+S` | Sync selected folder |
 
 ### Pane Navigation
 
@@ -139,6 +141,8 @@ MESSAGE ACTIONS
   Shift + Delete      Permanent delete
 
 OTHER
+  Ctrl + Shift + A    Sync all accounts
+  Ctrl + Shift + S    Sync selected folder
   Ctrl + S            Search
   Ctrl + L            Load images
   Ctrl + Q            Quit

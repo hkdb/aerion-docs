@@ -77,7 +77,7 @@ Find emails quickly with the search bar:
 
 1. Click the search bar or press `Ctrl+S`
 2. Type your search query
-3. Press `Enter` to search
+3. Press `Enter` to switch focus to results
 
 Search looks through:
 - Subject lines
@@ -101,11 +101,11 @@ Aerion also holds IDLE connections for push e-mail. When new e-mail arrive, it t
 
 ### Manual Sync
 
-Select the folder you want to sync, click the sync icon, select **Sync Folder**.
+Select the folder you want to sync, click the sync icon, select **Sync Folder** or press `Ctrl + Shift + S`. Clicking the sync button again or pressing `Ctrl + Shift + S` again will stop the sync.
 
 ### Sync All Accounts
 
-Use the sync button in the bottom left corner of the app to sync all accounts at once. Clicking it again while a sync is in progress will stop the sync.
+Use the sync button in the bottom left corner of the app or press `Ctrl + Shift + A` to sync all accounts at once. Clicking it or press `Ctrl + Shift + A` again while a sync is in progress will stop the sync.
 
 ### Force Re-sync
 
