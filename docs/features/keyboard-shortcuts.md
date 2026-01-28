@@ -80,6 +80,8 @@ These shortcuts work within the currently focused pane.
 |----------|--------|
 | `Up` / `K` | Scroll up |
 | `Down` / `J` | Scroll down |
+| `Tab` | Cycle through messages when focused on conversation viewer |
+| `Delete` / `Backspace` | Delete focused message when focused on conversation viewer |
 
 ## Single-Key Shortcuts
 

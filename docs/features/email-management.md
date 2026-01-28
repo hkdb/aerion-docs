@@ -40,6 +40,11 @@ Related messages are grouped into conversations (threads):
 - Messages are displayed chronologically
 - Reply context is preserved for easier reading
 
+Delete single message in a conversation:
+
+- Right click on the header of a message and select delete from the context menu
+- Focus (Alt+L or ALt+Right) on the conversation viewer, press tab to navigate to the message and press delete.
+
 ## Message Actions
 
 ### Single Message Actions
