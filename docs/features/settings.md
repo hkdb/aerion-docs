@@ -10,6 +10,10 @@ Access settings by clicking the **gear icon** in the sidebar or navigating to th
 
 ## General Tab
 
+### Show Title Bar
+
+Some users that are running tiling window managers or simply prefer a more minimalistic look and feel, the title bar can be disabled here by toggling it off.
+
 ### Theme
 
 Choose your visual theme:
