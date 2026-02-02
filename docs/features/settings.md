@@ -19,8 +19,11 @@ Some users that are running tiling window managers or simply prefer a more minim
 Choose your visual theme:
 
 - **System** - Follows your operating system's light/dark preference
-- **Light** - Always use light theme
-- **Dark** - Always use dark theme
+- **Light** - Always use default light theme (Purple accent)
+- **Light (Blue)** - Always use light theme with blue accent
+- **Light (Orange)** - Always use light theme with orange accent
+- **Dark** - Always use default dark theme (Purple accent)
+- **Dark (Gray)** - Always use Gray on gray dark theme
 
 ### Message Density
 
