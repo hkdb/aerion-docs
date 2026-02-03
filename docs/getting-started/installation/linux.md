@@ -5,32 +5,13 @@ pagination_next: getting-started/verify
 
 # Linux
 
-## AppImage
----
+## Flatpak
 
-1. Download the latest `AppImage`:
-    - [amd64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-linux-amd64.AppImage)
-    - [arm64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-linux-arm64.AppImage)
-    
-    If you are running a recent immutable/atomic distro, you may want to use these AppImages instead:
-    - [amd64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-linux-amd64-atomic.AppImage)
-    - [arm64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-linux-arm64-atomic.AppImage)
-2. Make it executable:
-   ```bash
-   chmod +x Aerion-*.AppImage
-   ```
-3. Run the AppImage:
-   ```bash
-   ./Aerion-*.AppImage
-   ```
+Aerion has not been submitted to Flathub yet. Meanwhile, if you want to install with Flatpak, you can download the latest `.flatpak` file from the [release page](https://github.com/hkdb/aerion/releases) and install it by running the following command in the directory you download it to:
 
-### Desktop Integration
-
-To add Aerion to your application menu, you can use a tool like:
-
-- [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)
-- [app](https://github.com/hkdb/app)
-- Manually extract `aerion.desktop` and `aerion.png` to place in `/usr/share/applications` & `/usr/share/icons`
+```bash
+flatpak --user install Aerion-<VERSION>.flatpak
+```
 
 ## Binary + Desktop File + Icon
 ---
@@ -54,10 +35,15 @@ sudo apt install libwebkit2gtk-4.1-0
 
 **Fedora:**
 ```bash
-sudo dnf install webkit2gtk4.1
+sudo dnf install webkit2gtk4.1gtk
 ```
 
 **Arch Linux:**
 ```bash
 sudo pacman -S webkit2gtk-4.1
 ```
+
+## AppImage
+---
+
+It was impossible to maintain an AppImage for a `webkit2gtk-4.1` dependent app that would be compatible with all distros. As such, the AppImage build has been removed from the release/distribution workflow.
