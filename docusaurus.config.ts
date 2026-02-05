@@ -104,11 +104,11 @@ const config: Config = {
           items: [
             {
               label: 'Privacy Policy',
-              href: 'https://github.com/hkdb/aerion/blob/main/docs/PRIVACY.md',
+              to: '/privacy',
             },
             {
               label: 'Terms of Use',
-              href: 'https://github.com/hkdb/aerion/blob/main/docs/TERMS.md',
+              to: '/terms',
             },
           ],
         },
