@@ -18,30 +18,40 @@ flatpak --user install Aerion-<VERSION>.flatpak
 
 If you prefer to use the binary which is most heavily tested:
 
-- download the latest standalone binary and place in a location in your `$PATH` :
-    - [amd64](https://github.com/hkdb/aerion/releases/latest/download/aerion-linux-amd64)
-    - [arm64](https://github.com/hkdb/aerion/releases/latest/download/aerion-linux-arm64)
-- Download `.desktop` [file](https://github.com/hkdb/aerion/releases/latest/download/aerion.desktop) and add to `~/.local/share/applications` or `/usr/share/applications`.
-- Download [icon](https://raw.githubusercontent.com/hkdb/aerion/main/build/linux/aerion.png) and place in `~/.local/share/icons` or `/usr/share/icons`.
+1. Aerion requires WebKit2GTK. On a lot of distributions this is already installed, but if it's not, install it on your system:
 
-### Dependencies
+Debian/Ubuntu:
 
-Aerion requires WebKit2GTK. On most distributions this is already installed, but if you encounter issues:
-
-**Debian/Ubuntu:**
 ```bash
+
 sudo apt install libwebkit2gtk-4.1-0
 ```
+Fedora:
 
-**Fedora:**
 ```bash
-sudo dnf install webkit2gtk4.1gtk
+sudo dnf install webkit2gtk4.1
 ```
+Arch Linux:
 
-**Arch Linux:**
 ```bash
 sudo pacman -S webkit2gtk-4.1
 ```
+
+2. Download the latest tarball for:
+
+- [amd64](https://github.com/hkdb/aerion/releases/latest/download/aerion-linux-amd64.tar.gz)
+- [arm64](https://github.com/hkdb/aerion/releases/latest/download/aerion-linux-arm64.tar.gz)
+
+3. Untar and install:
+
+```bash
+tar -xzvf aerion-linux-*.tar.gz
+cd aerion-linux-<arch>
+./install.sh
+# This install script will give you a choice to install it system-wide or just for the user.
+# Follow the prompts and complete the installation.
+```
+
 
 ## AppImage
 ---

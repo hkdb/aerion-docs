@@ -175,3 +175,7 @@ Aerion stores configuration in your system's standard application data location:
 :::warning
 Modifying configuration files directly is not recommended. Use the Settings UI instead.
 :::
+
+## Notifications
+
+Currently, clickable notifications is only available on Linux. By default, Aerion uses `org.freedesktop.portal.Desktop` but if you launch Aerion from the terminal, notifications will not work. In those cases, you will want to use the `--dbus-notify` flag to launch Aerion.
