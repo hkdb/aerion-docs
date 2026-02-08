@@ -7,10 +7,10 @@ pagination_next: getting-started/verify
 
 ## Flatpak
 
-Aerion has not been submitted to Flathub yet. Meanwhile, if you want to install with Flatpak, you can download the latest `.flatpak` file from the [release page](https://github.com/hkdb/aerion/releases) and install it by running the following command in the directory you download it to:
+Aerion has been submitted to Flathub and it's currently under review. Meanwhile, if you want to install with Flatpak, you can download the latest `.flatpak` file from the [release page](https://github.com/hkdb/aerion/releases) and install it by running the following command in the directory you downloaded it to:
 
 ```bash
-flatpak --user install Aerion-<VERSION>.flatpak
+flatpak --user install Aerion-<VERSION>-<ARCH>.flatpak
 ```
 
 ## Binary + Desktop File + Icon
