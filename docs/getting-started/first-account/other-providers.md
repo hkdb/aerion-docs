@@ -36,12 +36,13 @@ Providers marked with 🧪 have not yet been tested. They should work based on t
 ProtonMail requires Proton Bridge for third-party email clients.
 
 1. Install and configure [Proton Bridge](https://proton.me/mail/bridge)
-2. <a href="proton-cert" target="_blank">Install your Proton Bridge certificate</a> on your system
+2. <a href="proton-cert" target="_blank">Install your Proton Bridge certificate</a> on your system (Skip this step if you only want Aerion to recognize this cert)
 3. Click **+ Add Account** in the sidebar
 4. Select **ProtonMail Bridge** from the provider screen
 5. Enter your ProtonMail address
 6. Enter the Bridge-generated password (not your ProtonMail password)
-7. Click **Add Account**
+7. Click **Test Connection** and then click **Accept Always** if you skipped step 2
+8. Click **Add Account**
 
 ### Fastmail 🧪
 
