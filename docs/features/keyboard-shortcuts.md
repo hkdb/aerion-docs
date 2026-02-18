@@ -34,6 +34,7 @@ These work anywhere in the application (unless you're typing in a text field).
 | `Alt+Up` / `Alt+K` | Navigate to previous folder |
 | `Alt+Down` / `Alt+J` | Navigate to next folder |
 | `Alt+Enter` | Expand/collapse focused account folder tree |
+| `Alt(L)+Alt(R)` | Brings up context menu for the focused folder |
 
 ### Message Actions
 
@@ -61,7 +62,8 @@ These shortcuts work within the currently focused pane.
 |----------|--------|
 | `Up` / `K` | Navigate to previous folder |
 | `Down` / `J` | Navigate to next folder |
-| `Enter` / `Space` | Expand/collapse account |
+| `Alt + Enter` / `Space` | Expand/collapse account |
+| `Alt(L) + Alt(R)` | Brings up context menu for the focused folder |
 
 ### Message List
 
@@ -73,6 +75,8 @@ These shortcuts work within the currently focused pane.
 | `Shift+Down` / `Shift+J` | Select next + toggle checkbox |
 | `Space` | Toggle checkbox on current conversation |
 | `Enter` | Open selected conversation in viewer |
+| `CTRL+A` | Select all messages in folder |
+| `Alt(R)` | Brings up context menu for the selected message(s) |
 
 ### Conversation Viewer
 
@@ -82,6 +86,8 @@ These shortcuts work within the currently focused pane.
 | `Down` / `J` | Scroll down |
 | `Tab` | Cycle through messages when focused on conversation viewer |
 | `Delete` / `Backspace` | Delete focused message when focused on conversation viewer |
+| `Ctrl + A` | Select all text of message in viewport |
+| `Alt(R)` | Brings up context menu for the message focused |
 
 ## Single-Key Shortcuts
 
@@ -103,6 +109,8 @@ When the composer is open:
 | `Ctrl+Enter` | Send message |
 | `Alt+T` | Activate/Deactivate toolbar mode |
 | `Alt+A` | Attach a file |
+| `Alt+P` | Toggle PGP security mode (S = sign, E = encrypt) |
+| `Alt+S` | Toggle S/MIME security mode (S = sign, E = encrypt) |
 | `Ctrl+D` | Pop out/detach composer to separate window |
 | `Escape` | Close composer (prompts to save draft if unsaved) |
 
@@ -113,6 +121,7 @@ When the composer is open:
 | `Ctrl+B` | Bold |
 | `Ctrl+I` | Italic |
 | `Ctrl+U` | Underline |
+| `Alt+T`  | Toggle toolbar and follow hint to choose |
 
 ## Quick Reference Card
 
@@ -120,6 +129,7 @@ When the composer is open:
 NAVIGATION
   Alt + Arrow Keys    Pane focus (Left/Right) or Folder nav (Up/Down)
   Alt + H/J/K/L       Vim-style: pane (H/L) or folder (J/K)
+  Alt(L) + Alt(R)     Brings context menu up for the focused folder
   Alt + Enter         Expand/collapse account
   Arrow Keys / HJKL   Navigate within focused pane
   Enter               Open conversation / Expand account
@@ -132,6 +142,12 @@ COMPOSE & REPLY
   Ctrl + F            Forward
   Ctrl + Enter        Send (in composer)
   Ctrl + D            Detach composer
+  Alt  + T            Toggle format toolbar mode
+  Alt  + P            PGP mode (S/E to toggle sign/encrypt)
+  Alt  + S            S/MIME mode (S/E to toggle sign/encrypt)
+
+SELECTION
+  Ctrl + A            Select all messages (list) / text (viewer)
 
 MESSAGE ACTIONS
   S                   Star/Unstar
@@ -141,6 +157,7 @@ MESSAGE ACTIONS
   Ctrl + J            Spam
   Delete              Trash
   Shift + Delete      Permanent delete
+  Alt(R)              Context Menu
 
 OTHER
   Ctrl + Shift + A    Sync all accounts

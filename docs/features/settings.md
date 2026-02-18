@@ -64,35 +64,17 @@ Click **Add Account** to add a new email account. See [First Account Setup](/doc
 
 Click **Edit** on any account to modify:
 
-#### Basic Settings
+#### General Tab
 
-- **Account Name** - Display name for this account
 - **Account Color** - Color used in unified inbox
+- **Account Name** - Display name for this account
+- **Default Display Name** - The name people see the e-mail is from when you send e-mails
 - **Email Address** - Your email address (read-only for OAuth accounts)
-
-#### Server Settings
-
-For non-OAuth accounts:
-
-- IMAP server, port, and security
-- SMTP server, port, and security
-- Username and password
-
-#### Sync Settings
-
+- **Username** - Username of your account
+- **Password** - Password of your account
 - **Sync Period** - How far back to sync (30, 90, 180 days, or all)
 
-#### Folder Mapping
-
-Map special folders if not auto-detected:
-
-- Sent folder
-- Drafts folder
-- Trash folder
-- Archive folder
-- Spam folder
-
-#### Identities
+#### Identity Tab
 
 Manage sending identities for this account:
 
@@ -101,6 +83,35 @@ Manage sending identities for this account:
 - **Signature** - Rich text signature appended to messages
 
 You can have multiple identities per account (e.g., for aliases).
+
+#### Server Tab
+
+For non-OAuth accounts:
+
+- **Incoming Mail** - IMAP server, port, and security
+- **Outgoing Mail** - SMTP server, port, and security
+- **Check for New Mail** - How often to check for new messages outside of IDLE
+- **Request Read Receipts** - When to request read receipts for outgoing messages
+- **Server Mapping** - Map special folders if not auto-detected:
+    - Sent folder
+    - Drafts folder
+    - Trash folder
+    - Archive folder
+    - Spam folder
+- **Trusted Certificates** - Manually trusted TLS certificates for this account's servers.
+
+#### Security Tab
+
+- **PGP** - PGP/GPG signing and encryption settings of your account
+    - **Import Secret Keys** - Import your PGP secret key
+    - **Key Servers** - A list of key servers to use. There are 3 defaults already. You can also add your own here
+    - **Recipient Keys**
+        - **Import** - Import public keys of your contacts 
+        - **Search** - Search for public keys. Starts with WKD and then searches key servers 
+        - **List** - There's a list below the above 2 buttons that shows the current stored public keys
+- **S/MIME** - S/MIME cert based signing and encryption settings for your account
+    - **Import .p12** - Import your .p12 certificate. Imported certificate will appear below
+    - **Import** - Import recipient certificates here. Imported or auto-collected public certs will appear below
 
 ### Remove Account
 

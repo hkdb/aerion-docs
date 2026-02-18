@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     icon: '🐧',
     description: (
       <>
-        Designed as a first-class citizen for Linux. Also works great on macOS
+        Designed for Linux as a first-class citizen. Also works great on macOS
         and Windows.
       </>
     ),
