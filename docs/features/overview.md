@@ -68,11 +68,13 @@ Aerion is fully keyboard-navigable with vim-style shortcuts:
 ### Linux
 - Clickable notifications that focus the relevant email
 - Auto-sync when system wakes from suspend
-- AppImage for easy installation
+- Network state detection
+- Flatpak for easy installation
 
 ### macOS & Windows
-- Native application feel
-- System theme integration
+- Clickable notifications that focus the relevant email
+- Auto-sync when system wakes from suspend
+- Network state detection
 - Standard installation methods
 
 ## What's Not Included
@@ -80,7 +82,6 @@ Aerion is fully keyboard-navigable with vim-style shortcuts:
 Aerion focuses on core email functionality. These features are not currently available:
 
 - Calendar integration
-- PGP encryption
 - Email filters/rules
 - Offline sending (no message queue - requires connection to send)
 - Import from other email clients
