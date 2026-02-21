@@ -96,6 +96,12 @@ Search results are highlighted to show matching terms.
 - Search in the currently selected folder, or
 - Search across all folders (depending on your email server's capabilities)
 
+### Server Side SearchA
+
+If the search results don't yield what you are looking for, you can perform a more comprehensive server side IMAP search by clicking the **Search Server** link located on the bar above the first search result or at the center of the message list pane when basic search yields no results. This searches all messages on the server, including older messages that haven't been downloaded locally. It is slower but much more comprehensive. By default, server searches return a maximum of 200 results. If this still does not return what you are looking for, scroll down to the bar below the last search result and click the **Load More** link to return all results.
+
+Alternatively, if you prefer to always use server side search or know a server side search is needed, simply press **Shift+Enter** after typing your search phrase in the search bar.
+
 ## Sync Options
 
 ### Automatic Sync

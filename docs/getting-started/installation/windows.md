@@ -7,7 +7,7 @@ sidebar_position: 3
 1. Download the latest `.exe`:
     - [amd64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-windows-amd64.exe)
     - [arm64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-windows-arm64.exe)
-2. Run the executable
+2. Move executable to a safe place of choice, create a shortcut to put on your taskbar or start menu and then run the executable
 3. Aerion will launch
 
 ## WebView2 Runtime

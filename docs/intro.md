@@ -54,6 +54,7 @@ Some system-level features like clickable notifications and auto-sync on wake ar
 - Full-text search
 - Comprehensive keyboard shortcuts
 - Light and dark themes
+- Experimental support for S/MIME and PGP
 
 ## Open Source
 

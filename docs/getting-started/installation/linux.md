@@ -7,13 +7,15 @@ pagination_next: getting-started/verify
 
 ## Flatpak
 
+**Note:** Flathub is currently 2 versions behind the latest release.
+
 Flathub:
 
 ```bash
 flatpak install --user io.github.hkdb.Aerion
 ```
 
-If you want to install the Flatpak directly built on Github, you can download the latest `.flatpak` file from the [release page](https://github.com/hkdb/aerion/releases) and install it by running the following command in the directory you downloaded it to:
+If you want to install the latest Flatpak directly built on Github, you can download the latest `.flatpak` file from the [release page](https://github.com/hkdb/aerion/releases) and install it by running the following command in the directory you downloaded it to:
 
 ```bash
 flatpak install --user Aerion-<VERSION>-<ARCH>.flatpak

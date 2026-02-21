@@ -14,6 +14,17 @@ Access settings by clicking the **gear icon** in the sidebar or navigating to th
 
 Some users that are running tiling window managers or simply prefer a more minimalistic look and feel, the title bar can be disabled here by toggling it off.
 
+### Language
+
+Choose the language you want the UI to use. Current, Aerion supports:
+
+- English
+- 中文（香港)
+- 中文（台湾）
+- 中文（中国）
+
+Other languages will be added in future releases.
+
 ### Theme
 
 Choose your visual theme:
@@ -51,6 +62,16 @@ Set how long a message must be viewed before marking it as read:
 - **After 2 seconds**
 - **After 5 seconds**
 - **Never** - Only mark read manually
+
+### Background
+
+**Run in background** - Enable this if you want Aerion to not exit but run in the background when you close the Aerion window. This setting is also a pre-requisite for the next toggle to be enabled.
+**Starts hidden on launch** - Enable this if you want Aerion to launch in the background on first launch without showing the window.
+
+### Startup
+
+**Autostart on login** - Enable this if you want Aerion to automatically launch when you login to your system.
+
 
 ## Accounts Tab
 
