@@ -6,6 +6,7 @@ pagination_next: getting-started/verify
 # Linux
 
 ## Flatpak
+---
 
 **Note:** Flathub is currently 2 versions behind the latest release.
 
