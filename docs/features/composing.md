@@ -182,3 +182,18 @@ Signatures are automatically appended when composing new messages.
 ### Per-Identity Signatures
 
 If you have multiple identities (email addresses) on one account, each can have its own signature.
+
+## PGP & S/MIME Signing & Encryption
+
+If you have configured PGP or S/MIME properly on Aerion, an extra bar will appear below the subject line of the composer. Each configured secret key or cert is identity aware so if you choose an alias that doesn't have a matching key or cert, the bar will disappear. Once you switch back to an identity that has a matching key or cert, the bar will automatically appear again. By design, Aerion will only sign and encrypt with keys or certs that match the from e-mail address of the identity chosen.
+
+There are shortcut keys that are associated with bringing focus to each bar:
+
+| Type | Keyboard |
+|--------|----------|
+| PGP | `Alt+P` |
+| S/MIME | `Alt+S` |
+
+You can then toggle Signing by pressing `S` or toggle Encryption by pressing `E`. After you are done with toggling what you need, you can exit focus by pressing `Esc`. This will bring focus back to where you were before.
+
+
