@@ -45,14 +45,6 @@ Control how compact the message list appears:
 - **Standard** - Default balanced spacing
 - **Large** - More spacing for easier reading
 
-### Read Receipts
-
-Configure how Aerion handles read receipt requests:
-
-- **Never send** - Ignore all read receipt requests
-- **Ask** - Prompt when a sender requests a read receipt
-- **Always send** - Automatically send read receipts
-
 ### Auto-Mark as Read
 
 Set how long a message must be viewed before marking it as read:
@@ -71,7 +63,42 @@ Set how long a message must be viewed before marking it as read:
 ### Startup
 
 **Autostart on login** - Enable this if you want Aerion to automatically launch when you login to your system.
+## Composer Tab
 
+### Default Compose Mode
+
+Choose whether composing opens in the main window or a separate window when you press the **Compose** button or **Ctrl+N**.
+
+Options:
+
+- **In window** (Default)
+- **Detached window**
+
+### External mailto Links
+
+Choose how `mailto` links from other apps are handled.
+
+Options:
+
+- **In window** (Default)
+- **Detached window**
+
+### Default Message Format
+
+New messages will use this format by default in the composer. You can still switch per message.
+
+Options:
+
+- **Rich text** (Default)
+- **Plain text**
+
+### Read Receipts
+
+Configure how Aerion handles read receipt requests:
+
+- **Never send** - Ignore all read receipt requests
+- **Ask** - Prompt when a sender requests a read receipt
+- **Always send** - Automatically send read receipts
 
 ## Accounts Tab
 
