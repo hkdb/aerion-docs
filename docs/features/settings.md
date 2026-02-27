@@ -9,6 +9,7 @@ Configure Aerion to work the way you prefer.
 Access settings by clicking the **gear icon** in the sidebar or navigating to the Settings view.
 
 ## General Tab
+---
 
 ### Show Title Bar
 
@@ -64,6 +65,7 @@ Set how long a message must be viewed before marking it as read:
 
 **Autostart on login** - Enable this if you want Aerion to automatically launch when you login to your system.
 ## Composer Tab
+---
 
 ### Default Compose Mode
 
@@ -101,6 +103,7 @@ Configure how Aerion handles read receipt requests:
 - **Always send** - Automatically send read receipts
 
 ## Accounts Tab
+---
 
 Manage your email accounts.
 
@@ -179,6 +182,7 @@ For Gmail and Outlook accounts, click **Re-authorize** if:
 - You've revoked permissions and want to re-grant them
 
 ## Contacts Tab
+---
 
 Manage contact sources for autocomplete.
 
@@ -209,6 +213,7 @@ Click **Sync Now** to immediately fetch contacts from a source.
 Click **Remove** to stop syncing from a contact source. Previously synced contacts remain available until the next restart.
 
 ## About Tab
+---
 
 View information about Aerion:
 
@@ -218,10 +223,12 @@ View information about Aerion:
 - **Terms of Use** - Usage terms
 
 ## Applying Changes
+---
 
 Most settings take effect immediately. Some changes (like adding accounts or contact sources) may require a sync before you see results.
 
 ## Configuration Location
+---
 
 Aerion stores configuration in your system's standard application data location:
 
@@ -236,5 +243,6 @@ Modifying configuration files directly is not recommended. Use the Settings UI i
 :::
 
 ## Notifications
+---
 
 By default on Linux, Aerion uses `org.freedesktop.portal.Desktop` but if you launch Aerion from the terminal, notifications will not work. In those cases, you will want to use the `--dbus-notify` flag to launch Aerion.
