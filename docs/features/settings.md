@@ -11,9 +11,11 @@ Access settings by clicking the **gear icon** in the sidebar or navigating to th
 ## General Tab
 ---
 
-### Show Title Bar
+### Title Bar
 
-Some users that are running tiling window managers or simply prefer a more minimalistic look and feel, the title bar can be disabled here by toggling it off.
+- Aerion (Default) - Built-in title bar matching Aerion's themes
+- Native (Requires Restart) - Use the OS native title bar and window decorations
+- Disable - Some users that are running tiling window managers or simply prefer a more minimalistic look and feel, the title bar can be completely disabled.
 
 ### Language
 
@@ -34,8 +36,10 @@ Choose your visual theme:
 - **Light** - Always use default light theme (Purple accent)
 - **Light (Blue)** - Always use light theme with blue accent
 - **Light (Orange)** - Always use light theme with orange accent
+- **Light (Balanced)** - A less bright light mode with gray accent
 - **Dark** - Always use default dark theme (Purple accent)
 - **Dark (Gray)** - Always use Gray on gray dark theme
+- **Dark (Balanced)** - A slightly lighter dark mode with gray accent
 
 ### Message Density
 
@@ -45,6 +49,10 @@ Control how compact the message list appears:
 - **Compact** - Reduced spacing
 - **Standard** - Default balanced spacing
 - **Large** - More spacing for easier reading
+
+### Always Load Remote Images
+
+If toggled on, image blocking for all emails will be disabled. Remote images will load automatically instead of requiring the users to manually load images or setting always load rules based on domain or address.
 
 ### Auto-Mark as Read
 
