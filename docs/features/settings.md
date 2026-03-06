@@ -13,18 +13,18 @@ Access settings by clicking the **gear icon** in the sidebar or navigating to th
 
 ### Title Bar
 
-- Aerion (Default) - Built-in title bar matching Aerion's themes
-- Native (Requires Restart) - Use the OS native title bar and window decorations
-- Disable - Some users that are running tiling window managers or simply prefer a more minimalistic look and feel, the title bar can be completely disabled.
+- **Aerion** (Default) - Built-in title bar matching Aerion's themes
+- **Native** (Requires Restart) - Use the OS native title bar and window decorations
+- **Disable** - Some users that are running tiling window managers or simply prefer a more minimalistic look and feel, the title bar can be completely disabled.
 
 ### Language
 
 Choose the language you want the UI to use. Current, Aerion supports:
 
-- English
-- 中文（香港)
-- 中文（台湾）
-- 中文（中国）
+- **English**
+- **中文（香港)**
+- **中文 (台湾)**
+- **中文 (中国)**
 
 Other languages will be added in future releases.
 
