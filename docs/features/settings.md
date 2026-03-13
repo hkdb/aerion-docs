@@ -50,10 +50,6 @@ Control how compact the message list appears:
 - **Standard** - Default balanced spacing
 - **Large** - More spacing for easier reading
 
-### Always Load Remote Images
-
-If toggled on, image blocking for all emails will be disabled. Remote images will load automatically instead of requiring the users to manually load images or setting always load rules based on domain or address.
-
 ### Auto-Mark as Read
 
 Set how long a message must be viewed before marking it as read:
@@ -109,6 +105,21 @@ Configure how Aerion handles read receipt requests:
 - **Never send** - Ignore all read receipt requests
 - **Ask** - Prompt when a sender requests a read receipt
 - **Always send** - Automatically send read receipts
+
+## Images Tab
+
+### Always Load Remote Images
+
+If toggled on, image blocking for all emails will be disabled. Remote images will load automatically instead of requiring the users to manually load images or setting always load rules based on domain or address.
+
+### Addresses
+
+This is a list of e-mail addresses that have been marked as **Always Load** images from. You can remove any address that you no longer want to auto-load images on emails for.
+
+### Domains
+
+This is a list of domains that have been marked as **Always Load** images from. You can remove any domain that you no longer want to auto-load images on emails for.
+
 
 ## Accounts Tab
 ---
