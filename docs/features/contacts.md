@@ -22,12 +22,19 @@ Connect to any CardDAV-compatible server:
 - Synology Contacts
 
 **Email Provider CardDAV:**
-- Fastmail (`carddav.fastmail.com`)
-- iCloud (`contacts.icloud.com`)
-- Zoho (`contacts.zoho.com/carddav`)
-- AOL (`carddav.aol.com`)
-- GMX (`carddav.gmx.com`)
-- Mail.com (`carddav.mail.com`)
+| Server | URL | Verified | By
+|--------|------------|-------------|--------------|
+| Nextcloud | `https://server/remote.php/dav` | YES | [@hkdb](https://github.com/hkdb) | 
+| Radicale | `https://server/user/` | NO | N/A |
+| Baikal | `https://server/dav.php` | NO | N/A |
+| Fastmail | `https://carddav.fastmail.com` | NO | N/A |
+| iCloud | `https://contacts.icloud.com` | NO | N/A |
+| Zoho | `https://contacts.zoho.com/carddav` | NO | N/A |
+| AOL | `https://carddav.aol.com` | NO | N/A |
+| GMX | `https://carddav.gmx.com/CardDavProxy/carddav/current-user-principal-uri/` | YES | [@Olivetti](https://github.com/Olivetti) |
+| Mail.com | `https://carddav.mail.com` | NO | N/A |
+
+Consult your server's documentation for the correct URL.
 
 :::note
 ProtonMail does not support CardDAV. Yahoo's CardDAV is deprecated and unreliable.
@@ -144,17 +151,17 @@ If you have multiple address books (e.g., Personal and Work on the same CardDAV 
 
 Some CardDAV servers require a specific URL format:
 
-| Server | URL Format |
-|--------|------------|
-| Nextcloud | `https://server/remote.php/dav` |
-| Radicale | `https://server/user/` |
-| Baikal | `https://server/dav.php` |
-| Fastmail | `https://carddav.fastmail.com` |
-| iCloud | `https://contacts.icloud.com` |
-| Zoho | `https://contacts.zoho.com/carddav` |
-| AOL | `https://carddav.aol.com` |
-| GMX | `https://carddav.gmx.com` |
-| Mail.com | `https://carddav.mail.com` |
+| Server | URL | Verified | By
+|--------|------------|-------------|--------------|
+| Nextcloud | `https://server/remote.php/dav` | YES | [@hkdb](https://github.com/hkdb) | 
+| Radicale | `https://server/user/` | NO | N/A |
+| Baikal | `https://server/dav.php` | NO | N/A |
+| Fastmail | `https://carddav.fastmail.com` | NO | N/A |
+| iCloud | `https://contacts.icloud.com` | NO | N/A |
+| Zoho | `https://contacts.zoho.com/carddav` | NO | N/A |
+| AOL | `https://carddav.aol.com` | NO | N/A |
+| GMX | `https://carddav.gmx.com/CardDavProxy/carddav/current-user-principal-uri/` | YES | [@Olivetti](https://github.com/Olivetti) |
+| Mail.com | `https://carddav.mail.com` | NO | N/A |
 
 Consult your server's documentation for the correct URL.
 

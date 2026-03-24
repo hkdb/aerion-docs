@@ -55,7 +55,7 @@ Yes, if your organization allows third-party email clients:
 
 ### Why does Google show a security warning?
 
-Google displays "This app isn't verified" because Aerion hasn't gone through Google's app verification process (which is designed for cloud services, not local applications).
+Google displays "This app isn't verified" because Aerion hasn't gone through Google's app verification process.
 
 Aerion is safe - it's open source and runs entirely on your computer. To proceed, click "Advanced" and then "Go to Aerion (unsafe)."
 
@@ -102,10 +102,6 @@ Settings → Apps → Default apps → Email → Select Aerion
 ### Can I import emails from Thunderbird?
 
 Not currently. Aerion syncs emails from your email servers via IMAP. If your emails are on the server, they'll appear in Aerion once you add your account.
-
-### Does Aerion support PGP encryption?
-
-Not yet. PGP support is on the roadmap for a future release.
 
 ### Can I set up email filters/rules?
 
@@ -164,8 +160,6 @@ Report bugs on [GitHub Issues](https://github.com/hkdb/aerion/issues).
 Aerion welcomes contributions! Check the [GitHub repository](https://github.com/hkdb/aerion) for:
 
 - Bug reports and feature requests
-- Pull requests for bug fixes and features
-- Documentation improvements
 
 ### Is there commercial support?
 
