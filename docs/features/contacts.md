@@ -24,7 +24,7 @@ Connect to any CardDAV-compatible server:
 **Email Provider CardDAV:**
 | Server | URL | Verified | By
 |--------|------------|-------------|--------------|
-| Nextcloud | `https://server/remote.php/dav` | YES | [@hkdb](https://github.com/hkdb) | 
+| Nextcloud | `https://server/remote.php/dav/addressbooks/users/<USERNAME>/contacts/` | YES | [@hkdb](https://github.com/hkdb) | 
 | Radicale | `https://server/user/` | NO | N/A |
 | Baikal | `https://server/dav.php` | NO | N/A |
 | Fastmail | `https://carddav.fastmail.com` | NO | N/A |
