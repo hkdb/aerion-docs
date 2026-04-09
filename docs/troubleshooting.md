@@ -76,6 +76,8 @@ Some servers handle sent mail differently:
 
 ### OAuth not working
 
+Aerion has recently been CASA Tier 2 certified and a LoV was already submitted to Google for review. Until Google gives the final stamp of approval, app passwords may be the only solution.
+
 Try the app password method instead:
 
 1. Generate an app password in Google Account settings
@@ -83,7 +85,7 @@ Try the app password method instead:
 
 ### "This app isn't verified" warning
 
-This is expected for open-source applications. To proceed:
+This is expected until Google verifies Aerion. (See above for a more thorough explanation) To proceed:
 
 1. Click **Advanced**
 2. Click **Go to Aerion (unsafe)**
@@ -100,10 +102,6 @@ Use **Sign in with Microsoft** when adding your account.
 ### "Need admin approval" error
 
 Your organization's administrator has restricted third-party applications. Contact your IT department to request access, or check if your organization has specific email client requirements.
-
-### Missing calendar or contacts permissions
-
-Aerion only requests email and contact permissions. Calendar integration is not currently available.
 
 ## Linux-Specific Issues
 
@@ -126,6 +124,50 @@ sudo dnf install webkit2gtk4.1
 sudo pacman -S webkit2gtk-4.1
 ```
 
+If libwebkit2gtk is already installed and Aerion still won't start, try one of the following commands:
+
+**Flatpak**
+
+```bash
+flatpak run --env=WEBKIT_DISABLE_DMABUF_RENDERER=1 io.github.hkdb.Aerion
+```
+
+```bash
+flatpak run --env=WEBKIT_DISABLE_COMPOSITING_MODE=1 io.github.hkdb.Aerion
+```
+
+```bash
+flatpak run --env=LIBGL_ALWAYS_SOFTWARE=1 io.github.hkdb.Aerion
+```
+
+After figuring out which works, to make the workaround permanent, for example if DMABUF was the issue:
+
+```bash
+flatpak override --user --env=WEBKIT_DISABLE_DMABUF_RENDERER=1 io.github.hkdb.Aerion
+```
+
+**Binary**
+
+```bash
+WEBKIT_DISABLE_DMABUF_RENDERER=1 aerion
+```
+
+```bash
+WEBKIT_DISABLE_COMPOSITING_MODE=1 aerion
+```
+
+```bash
+LIBGL_ALWAYS_SOFTWARE=1 aerion
+```
+
+After figuring out which works, to make the workaround permanent, for example if DMABUF was the issue:
+
+```bash
+echo "export WEBKIT_DISABLE_DMABUF_RENDERER=1" >> ~/.profile  # Or which ever file that makes this environment variable stick
+```
+Then, logout and log back in.
+
+
 ### No desktop icon after installation
 
 For AppImage users:
@@ -141,16 +183,7 @@ For AppImage users:
 
 Ensure you have a notification daemon running. On GNOME, notifications work automatically. On other desktops, you may need to install and configure a notification daemon.
 
-### AppImage won't run
-
-Make sure it's executable:
-```bash
-chmod +x Aerion-*.AppImage
-```
-
-If you get a FUSE error, either:
-- Install fuse2: `sudo apt install libfuse2` (Debian/Ubuntu)
-- Extract and run directly: `./Aerion-*.AppImage --appimage-extract-and-run`
+Also, if you don't have desktop portal installed on your system or launch Aerion from the terminal, you may want to launch Aerion with the `-dbus-notify` flag so that it sends notifications directly to dbus.
 
 ## macOS-Specific Issues
 

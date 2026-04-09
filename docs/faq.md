@@ -48,7 +48,7 @@ OAuth tokens expire periodically for security reasons. When they expire, you'll 
 Yes, if your organization allows third-party email clients:
 
 - **Microsoft 365/Office 365** - Works with OAuth if your admin has approved third-party apps
-- **Google Workspace** - Works with OAuth if your admin allows it
+- **Google Workspace** - Will work seamlessly after Aerion is verified by Google which is hopefully soon.
 - **Generic IMAP/SMTP** - Works with any corporate email server that supports IMAP
 
 ## Gmail & Outlook
@@ -57,7 +57,7 @@ Yes, if your organization allows third-party email clients:
 
 Google displays "This app isn't verified" because Aerion hasn't gone through Google's app verification process.
 
-Aerion is safe - it's open source and runs entirely on your computer. To proceed, click "Advanced" and then "Go to Aerion (unsafe)."
+Aerion is pending Google verification. To proceed, click "Advanced" and then "Go to Aerion (unsafe)." Otherwise, you may have to use app password instead.
 
 ### How do I create a Google App Password?
 
@@ -109,11 +109,11 @@ No. Aerion doesn't currently support client-side email filtering. Set up rules t
 
 ### Does Aerion support calendar integration?
 
-Not currently. Calendar integration is being considered for future versions.
+Not currently. Calendar integration is being considered to ship as a disabled by default plugin in the futureso as to keep Aerion minimalist by default but extensible enough to do much more.
 
 ### Where can I see my synced contacts?
 
-There's currently no way to see the synced contacts in the UI. The purpose of the sync is solely for auto-completing the to/cc/bcc fields in the composer. The assumption is you will manage your contacts via another contacts specific app. 
+There's currently no way to see the synced contacts in the UI. The purpose of the sync is solely for auto-completing the to/cc/bcc fields in the composer. The assumption is you will manage your contacts via another contacts specific app. In the future, this is also being considered to be a feature shipped as a disabled by default plugin for those who want this capability inside Aerion.
 
 ## Technical
 
@@ -160,6 +160,7 @@ Report bugs on [GitHub Issues](https://github.com/hkdb/aerion/issues).
 Aerion welcomes contributions! Check the [GitHub repository](https://github.com/hkdb/aerion) for:
 
 - Bug reports and feature requests
+- Pull Request will be accepted soon - Keep an eye on [CONTRIBUTING.md](https://github.com/hkdb/aerion/blob/main/CONTRIBUTING.md)
 
 ### Is there commercial support?
 
