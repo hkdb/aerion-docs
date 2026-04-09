@@ -140,7 +140,7 @@ flatpak run --env=WEBKIT_DISABLE_COMPOSITING_MODE=1 io.github.hkdb.Aerion
 flatpak run --env=LIBGL_ALWAYS_SOFTWARE=1 io.github.hkdb.Aerion
 ```
 
-After figuring out which works, to make the workaround permanent, for example if DMABUF was the issue:
+After figuring out which works, to make the workaround permanent, for example, if DMABUF was the issue:
 
 ```bash
 flatpak override --user --env=WEBKIT_DISABLE_DMABUF_RENDERER=1 io.github.hkdb.Aerion
@@ -160,10 +160,10 @@ WEBKIT_DISABLE_COMPOSITING_MODE=1 aerion
 LIBGL_ALWAYS_SOFTWARE=1 aerion
 ```
 
-After figuring out which works, to make the workaround permanent, for example if DMABUF was the issue:
+After figuring out which works, to make the workaround permanent, for example, if DMABUF was the issue:
 
 ```bash
-echo "export WEBKIT_DISABLE_DMABUF_RENDERER=1" >> ~/.profile  # Or which ever file that makes this environment variable stick
+echo "export WEBKIT_DISABLE_DMABUF_RENDERER=1" >> ~/.profile  # Or whichever file that makes this environment variable stick
 ```
 Then, logout and log back in.
 
