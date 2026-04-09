@@ -167,18 +167,6 @@ echo "export WEBKIT_DISABLE_DMABUF_RENDERER=1" >> ~/.profile  # Or whichever fil
 ```
 Then, logout and log back in.
 
-
-### No desktop icon after installation
-
-For AppImage users:
-
-1. Use [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) for automatic integration
-2. Or log out and back in
-3. Or manually refresh the icon cache:
-   ```bash
-   gtk-update-icon-cache
-   ```
-
 ### Notifications not working
 
 Ensure you have a notification daemon running. On GNOME, notifications work automatically. On other desktops, you may need to install and configure a notification daemon.
