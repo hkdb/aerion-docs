@@ -41,6 +41,10 @@ Choose your visual theme:
 - **Dark (Gray)** - Always use Gray on gray dark theme
 - **Dark (Balanced)** - A slightly lighter dark mode with gray accent
 
+### Accent bar for unread messages
+
+This puts a left side bar marker based on your themes secondary color to each unread message for better visual grepping of what's read and unread if enabled. This feature is disabled by default. The only difference between read and unread is bold versus normal text by default (when disabled).
+
 ### Message Density
 
 Control how compact the message list appears:
@@ -68,6 +72,11 @@ Set how long a message must be viewed before marking it as read:
 ### Startup
 
 **Autostart on login** - Enable this if you want Aerion to automatically launch when you login to your system.
+
+### Tray Icon
+
+Tray icon has not been implemented yet but is in the roadmap down the road.
+
 ## Composer Tab
 ---
 
@@ -107,6 +116,7 @@ Configure how Aerion handles read receipt requests:
 - **Always send** - Automatically send read receipts
 
 ## Images Tab
+---
 
 ### Always Load Remote Images
 
@@ -154,6 +164,8 @@ Manage sending identities for this account:
 
 You can have multiple identities per account (e.g., for aliases).
 
+If you are using an Microsoft 365 account, there will be an additional section in this tab for you to add **shared mailboxes** here. After completely the flow, you will see the shared mailbox as a separate account on the side bar.
+
 #### Server Tab
 
 For non-OAuth accounts:
@@ -168,6 +180,10 @@ For non-OAuth accounts:
     - Trash folder
     - Archive folder
     - Spam folder
+- **Folder sync subscriptions** - Configure additional folders to be synced automatically
+    - Manage folder sync - This is disabled by default. Enable it to see the UI to configure which folders to auto-sync
+        - Sync all folders - Disabled by default. Enable it to sync all imap folders
+        - Or just check only the folders you want to auto-sync
 - **Trusted Certificates** - Manually trusted TLS certificates for this account's servers.
 
 #### Security Tab

@@ -76,20 +76,16 @@ Some servers handle sent mail differently:
 
 ### OAuth not working
 
-Aerion has recently been CASA Tier 2 certified and a LoV was already submitted to Google for review. Until Google gives the final stamp of approval, app passwords may be the only solution.
+Aerion has recently been CASA Tier 2 certified and verified by Google as of April 26th, 2026 so this should no longer happen. However, if it does for some reason, app passwords may be a viable workaround. However, prior to authenticating with your App Password, verify that your network is safe and that you are in fact connecting to Google's infrastructure.
 
-Try the app password method instead:
+The app password method:
 
 1. Generate an app password in Google Account settings
 2. Remove and re-add your account using app password authentication
 
 ### "This app isn't verified" warning
 
-This is expected until Google verifies Aerion. (See above for a more thorough explanation) To proceed:
-
-1. Click **Advanced**
-2. Click **Go to Aerion (unsafe)**
-3. Complete the authorization
+This should no longer happen as of April 26th, 2026. (See above section for more details)
 
 ## Outlook Issues
 
@@ -167,6 +163,11 @@ echo "export WEBKIT_DISABLE_DMABUF_RENDERER=1" >> ~/.profile  # Or whichever fil
 ```
 Then, logout and log back in.
 
+
+### Weird rendering issues in Linux
+
+Try the workarounds in the above section.
+
 ### Notifications not working
 
 Ensure you have a notification daemon running. On GNOME, notifications work automatically. On other desktops, you may need to install and configure a notification daemon.
@@ -187,13 +188,6 @@ This happens because Aerion isn't signed with an Apple Developer certificate.
 **Solution 2:** Remove quarantine attribute
 ```bash
 xattr -cr /Applications/Aerion.app
-```
-
-### App crashes on startup
-
-Try removing the configuration and starting fresh:
-```bash
-rm -rf ~/Library/Application\ Support/aerion
 ```
 
 ## Windows-Specific Issues

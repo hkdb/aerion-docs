@@ -62,7 +62,12 @@ When viewing a message or with a message selected:
 | Archive | Click Archive button or `Ctrl+K` |
 | Move to Trash | Click Trash button or `Delete` |
 | Mark as Spam | Click Spam button or `Ctrl+J` |
-| Move to Folder | Right-click > Move to |
+| Copy to Folder | Right-click > Copy to or Right Alt > Copy to |
+| Move to Folder | Right-click > Move to or Right Alt > Move to |
+
+### Copy to Folder and MOve to Folder
+
+Toggling either copy or move to folder will bring up a dialog with a scrollable list of folders to choose as destination. There's also a search bar on top of the folder list so that users can use it to find the target folder in the case that the account has a substantial amount of folders.
 
 ### Bulk Actions
 

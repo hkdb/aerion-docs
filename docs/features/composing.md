@@ -68,6 +68,10 @@ Edit tables using the table tools that appear when a table is selected.
 
 From the subject field, if you press tab, it will automatically focus on the body of the e-mail which effectively skips the toolbar. To focus on the toolbar, press `Alt+T` and single key shortcut key hints will displayacross the toolbar for you to select a button with keyboard. To exit toolbar mode, simply press `Alt+T` again.
 
+###   Remote Images
+
+The same remote image bar as the conversation viewer appears here to continuing blocking images when you reply or forward messages. If you load images prior to clicking reply, The bar won't be rendered and images will be automatically loaded. Image blocking is just to protect you as an Aerion user. They will all still be sent to your recipient(s) as originally composed.
+
 ## Plain Text Mode
 
 Toggle to plain text mode when you need:

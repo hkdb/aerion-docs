@@ -28,6 +28,8 @@ Aerion was designed from the ground up with being "lightweight" in mind. It is b
 
 Aerion is open source, so you can decide for yourself by reviewing the [source code](https://github.com/hkdb/aerion). It doesn't collect telemetry, doesn't phone home, and stores all data locally.
 
+It has also recently been CASA Tier 2 certified and verified by Google.
+
 ## Accounts
 
 ### Can I use multiple email accounts?
@@ -55,9 +57,7 @@ Yes, if your organization allows third-party email clients:
 
 ### Why does Google show a security warning?
 
-Google displays "This app isn't verified" because Aerion hasn't gone through Google's app verification process.
-
-Aerion is pending Google verification. To proceed, click "Advanced" and then "Go to Aerion (unsafe)." Otherwise, you may have to use app password instead.
+As of April 26th, 2026, this should no longer happen as Aerion has been CASA Tier 2 certified and verified by Google. If this still happens, make sure you have a secure/safe connection to the internet and then try again.
 
 ### How do I create a Google App Password?
 
@@ -109,7 +109,7 @@ No. Aerion doesn't currently support client-side email filtering. Set up rules t
 
 ### Does Aerion support calendar integration?
 
-Not currently. Calendar integration is being considered to ship as a disabled by default plugin in the futureso as to keep Aerion minimalist by default but extensible enough to do much more.
+Not currently. Calendar integration is in the roadmap to ship as a disabled by default plugin in the future so as to keep Aerion minimalist by default but extensible enough to do much more.
 
 ### Where can I see my synced contacts?
 
@@ -160,7 +160,8 @@ Report bugs on [GitHub Issues](https://github.com/hkdb/aerion/issues).
 Aerion welcomes contributions! Check the [GitHub repository](https://github.com/hkdb/aerion) for:
 
 - Bug reports and feature requests
-- Pull Request will be accepted soon - Keep an eye on [CONTRIBUTING.md](https://github.com/hkdb/aerion/blob/main/CONTRIBUTING.md)
+- Pull requests for translations are now open - Read [LANGUAGE.md](https://github.com/hkdb/aerion/blob/main/docs/LANGUAGE.md) thoroughly. 
+- General Pull Request will be accepted soon - Keep an eye on [CONTRIBUTING.md](https://github.com/hkdb/aerion/blob/main/CONTRIBUTING.md)
 
 ### Is there commercial support?
 
