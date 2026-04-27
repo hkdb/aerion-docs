@@ -27,6 +27,11 @@ If Aerion doesn't launch or it behaves weirdly, try the following to disable DMA
 ```bash
 flatpak run --env=WEBKIT_DISABLE_DMABUF_RENDERER=1 io.github.hkdb.Aerion
 ```
+If that solves the issues, you can make this permanent with:
+
+```bash
+flatpak override --user --env=WEBKIT_DISABLE_DMABUF_RENDERER=1 io.github.hkdb.Aerion
+```
 
 ## Binary + Desktop File + Icon
 ---
@@ -66,6 +71,14 @@ cd aerion-linux-<arch>
 # This install script will give you a choice to install it system-wide or just for the user.
 # Follow the prompts and complete the installation.
 ```
+
+If you run into any issues running Aerion, try:
+
+```bash
+export WEBKIT_DISABLE_DMABUF_RENDERER=1 && aerion
+```
+
+If this solves the issues, make this environment variable permanent for the user.
 
 
 ## AppImage
