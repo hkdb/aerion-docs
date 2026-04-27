@@ -22,6 +22,12 @@ If you want to install the latest Flatpak directly built on Github, you can down
 flatpak install --user Aerion-<VERSION>-<ARCH>.flatpak
 ```
 
+If Aerion doesn't launch or it behaves weirdly, try the following to disable DMABUF which is known to be buggy for certain hardware combinations:
+
+```bash
+flatpak run --env=WEBKIT_DISABLE_DMABUF_RENDERER=1 io.github.hkdb.Aerion
+```
+
 ## Binary + Desktop File + Icon
 ---
 
