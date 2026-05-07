@@ -19,9 +19,10 @@ Access settings by clicking the **gear icon** in the sidebar or navigating to th
 
 ### Language
 
-Choose the language you want the UI to use. Current, Aerion supports:
+Choose the language you want the UI to use. Currently, Aerion supports:
 
 - **English**
+- **Français**  |  Thanks to [freemans32](https://github.com/freemans32)
 - **中文（香港)**
 - **中文 (台湾)**
 - **中文 (中国)**
@@ -40,6 +41,22 @@ Choose your visual theme:
 - **Dark** - Always use default dark theme (Purple accent)
 - **Dark (Gray)** - Always use Gray on gray dark theme
 - **Dark (Balanced)** - A slightly lighter dark mode with gray accent
+
+### Show colored circles in message list
+
+Show colored circles with sender initials in the message list.
+
+Enabled by default.
+
+This is where you can disable the colored contact circles on the message list of Aerion to get a more minimalistic look especially if you don't feel like you get value from the color contact circles.
+
+### Show colored circles in conversation viewer
+
+Show colored circles with sender initials in the conversation viewer.
+
+Enabled by default.
+
+This is where you can disable the colored contact circles in the conversation viewer if you think the contact circles are unneccesary noise.
 
 ### Accent bar for unread messages
 

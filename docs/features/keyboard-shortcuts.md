@@ -51,6 +51,7 @@ When a message is selected or viewed:
 | `Ctrl+J` | Mark as spam |
 | `Ctrl+L` | Load remote images |
 | `Ctrl+Shift+L` | Open "Always Load Images" options |
+| `Shift+F` | Toggle focus mode for the message |
 
 ## Pane-Specific Shortcuts
 
@@ -88,6 +89,7 @@ These shortcuts work within the currently focused pane.
 | `Delete` / `Backspace` | Delete focused message when focused on conversation viewer |
 | `Ctrl + A` | Select all text of message in viewport |
 | `Alt(R)` | Brings up context menu for the message focused |
+| `F` | Toggles focus mode on the current thread (conversation) |
 
 ## Single-Key Shortcuts
 

@@ -66,6 +66,18 @@ Aerion is licensed under Apache 2.0. You can view the source code, report issues
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/3dfosi)
 
+#### Issue Contributors
+
+Aerion is largely driven by community feedback. Big thanks to the contributors who submitted issues which led to meaningful improvements we all now enjoy. This project would not be the same without them!
+
+Check out who they are at the Github [repo](https://github.com/hkdb/aerion) README.md under the **Issue Contributors** section.
+
+#### Translation Contributors
+
+Special thanks to translation contributors for making Aerion more accessible.
+
+Check out who they are at the Github [repo](https://github.com/hkdb/aerion) README.md under the **Translation Contributors** section.
+
 ## Get Started
 
 Ready to try Aerion? Head to the [Installation Guide](/docs/getting-started/installation) to download and install it on your system.

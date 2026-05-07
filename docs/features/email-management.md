@@ -45,6 +45,17 @@ Delete single message in a conversation:
 - Right click on the header of a message and select delete from the context menu
 - Focus (Alt+L or ALt+Right) on the conversation viewer, press tab to navigate to the message and press delete.
 
+Focus mode:
+
+Any thread or specific message can be toggled into focus mode which stretches the thread or message across the full size of the window. This is particularly useful if you would like to share your screen in an online meeting without exposing your folders and message list. It's of course also good for those who just want to focus on an e-mail and not be distracted by other elements of the app. While in focus mode, reply, reply all, and forward actions will launch a detached composer instead of the default composer. To reply, reply all, or forward with the default in window composer, exit focus mode before you toggle the action.
+
+To toggle a thread into focus mode, click the focus mode icon in the top right corner of the conversation viewer next to the print icon.
+
+To toggle a message into focus mode, click the focus mode icon in the top right corner of the message's header.
+
+You can also toggle a thread into focus mode by just pressing **f** and toggle a message you are focused on into focus mode by pressing **Shift+f**.
+
+
 ## Message Actions
 
 ### Single Message Actions
@@ -64,6 +75,8 @@ When viewing a message or with a message selected:
 | Mark as Spam | Click Spam button or `Ctrl+J` |
 | Copy to Folder | Right-click > Copy to or Right Alt > Copy to |
 | Move to Folder | Right-click > Move to or Right Alt > Move to |
+| Thread Focus Mode | `F` |
+| Message Focus Mode | `Shift+F` |
 
 ### Copy to Folder and Move to Folder
 
