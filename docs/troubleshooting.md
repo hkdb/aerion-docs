@@ -231,6 +231,24 @@ Some antivirus software may flag Aerion as suspicious (common for new applicatio
 - Try manually syncing: **Settings > Contacts > Sync Now**
 - Ensure contacts have email addresses (contacts without email won't appear)
 
+### Produce debug logs for further investigator with the maintainer
+
+To produce logs for the maintainer, run one of the following command to launch Aerion:
+
+Windows, Mac, Linux binary:
+
+```bash
+aerion --debug
+
+```
+Linux Flatpak:
+
+```bash
+flatpak run --env=AERION_DEBUG=1 io.github.hkdb.Aerion
+
+```
+Copy only the portion that relates to your issue and be sure to redact any potentially personally identifiable information as needed.
+
 ## Getting More Help
 
 If your issue isn't covered here:

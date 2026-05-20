@@ -22,7 +22,9 @@ Access settings by clicking the **gear icon** in the sidebar or navigating to th
 Choose the language you want the UI to use. Currently, Aerion supports:
 
 - **English**
-- **Français**  |  Thanks to [freemans32](https://github.com/freemans32)
+- **Čeština**      |  Thanks to [lorduskordus](https://github.com/lorduskordus)
+- **Français**     |  Thanks to [freemans32](https://github.com/freemans32)
+- **Norsk Bokmål** | Thanks to [dexblasnoot](https://github.com/dexblasnoot)
 - **中文（香港)**
 - **中文 (台湾)**
 - **中文 (中国)**
@@ -59,6 +61,14 @@ Choose your visual theme:
 - **Pop! (Dark)** - Pop!/Cosmic dark theme colors
 - **VS Code (Dark)** - VS Code dark theme colors
 - **Yaru (Dark)** - Yaru dark theme colors
+
+### Dark mail content
+
+Apply a dark filter to email message content when Aerion is in dark mode.
+
+There are two schools of preferences for dark mode. One is to have dark UI but light e-mail content and the other is to have everything in dark mode. This setting provides a way for the user to choose which school they belong to.
+
+When this is toggle is turned on, each message will remder om dark mpde amd have a ☀️ icon on the right side of the header which you can click on to temporarily render the email in light mode in case the dark mode filter breaks the e-mail rendering.
 
 ### Show colored circles in message list
 
