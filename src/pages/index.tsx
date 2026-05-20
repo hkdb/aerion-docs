@@ -20,7 +20,7 @@ function CallToAction() {
           </Link>
           <Link
             className={clsx('button button--outline button--lg', styles.downloadButton)}
-            href="https://github.com/hkdb/aerion/releases">
+            href="https://aerion.3df.io/docs/getting-started/installation/">
             Download
           </Link>
         </div>
