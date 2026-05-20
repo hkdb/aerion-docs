@@ -2,7 +2,9 @@
 sidebar_position: 3
 ---
 
-# Windows (Installer)
+# Windows 
+
+## Installer
 
 1. Download the latest installer:
     - [amd64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-windows-setup-amd64.exe)
@@ -12,7 +14,7 @@ sidebar_position: 3
 4. Aerion should now be launchable from your start menu
 
 
-# Windows (Portable)
+## Portable
 
 1. Download the latest `.exe`:
     - [amd64](https://github.com/hkdb/aerion/releases/latest/download/Aerion-windows-amd64.exe)
