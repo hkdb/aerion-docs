@@ -68,7 +68,7 @@ Apply a dark filter to email message content when Aerion is in dark mode.
 
 There are two schools of preferences for dark mode. One is to have dark UI but light e-mail content and the other is to have everything in dark mode. This setting provides a way for the user to choose which school they belong to.
 
-When this is toggle is turned on, each message will remder om dark mpde amd have a ☀️ icon on the right side of the header which you can click on to temporarily render the email in light mode in case the dark mode filter breaks the e-mail rendering.
+When this toggle is turned on, each message will render in dark mpde amd have a ☀️ icon on the right side of the header which you can click on to temporarily render the email in light mode in case the dark mode filter breaks the e-mail rendering.
 
 ### Show colored circles in message list
 
