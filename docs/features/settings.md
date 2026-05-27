@@ -22,8 +22,10 @@ Access settings by clicking the **gear icon** in the sidebar or navigating to th
 Choose the language you want the UI to use. Currently, Aerion supports:
 
 - **English**
-- **Čeština**      |  Thanks to [lorduskordus](https://github.com/lorduskordus)
-- **Français**     |  Thanks to [freemans32](https://github.com/freemans32)
+- **Čeština**      | Thanks to [lorduskordus](https://github.com/lorduskordus)
+- **Deutsch**      | Thanks to [Gerti1972](https://github.com/Gerti1972) + [dev-inside (review)](https://github.com/dev-inside) + [StefanSchroeder (review)](https://github.com/StefanSchroeder)
+- **Français**     | Thanks to [freemans32](https://github.com/freemans32)
+- **Italiano**     | Thanks to [YacineBoussoufa](https://github.com/YacineBoussoufa)
 - **Norsk Bokmål** | Thanks to [dexblasnoot](https://github.com/dexblasnoot)
 - **中文（香港)**
 - **中文 (台湾)**
