@@ -32,15 +32,15 @@ Aerion is built around five core principles:
 
 Aerion is built with [Wails](https://wails.io) and [Svelte](https://svelte.dev), not Electron. This means native performance with a modern web-based UI, without the memory overhead of running a full Chromium instance.
 
+Aerion is CASA Tier 2 Certified by Google's preferred [authorized assessor](https://appdefensealliance.dev/casa/casa-assessors): [TAC Security](https://tacsecurity.com/)
+
 ## Platform Support
 
 While Linux is a first-class citizen, Aerion also runs on:
 
-- **Linux** - AppImage for easy installation
+- **Linux** - Flatpak or Binary
 - **macOS** - Native .app bundle
 - **Windows** - Standard installer
-
-Some system-level features like clickable notifications and auto-sync on wake are currently Linux-only.
 
 ## Features at a Glance
 
