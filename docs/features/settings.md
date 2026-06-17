@@ -198,7 +198,9 @@ Click **Edit** on any account to modify:
 - **Default Display Name** - The name people see the e-mail is from when you send e-mails
 - **Email Address** - Your email address (read-only for OAuth accounts)
 - **Username** - Username of your account
-- **Password** - Password of your account
+- **Credentials**:
+    - **Password** - Password of your account
+    - **Re-authorize** - Re-authorize oauth account 
 - **Sync Period** - How far back to sync (30, 90, 180 days, or all)
 
 #### Identity Tab
@@ -248,20 +250,12 @@ For non-OAuth accounts:
 
 ### Remove Account
 
-Click **Remove** to delete an account. This removes:
+Click **Trash Icon** to delete an account. This removes:
 
 - The account configuration
 - Locally cached emails from this account
 
 Your emails on the server are not affected.
-
-### Re-authorize OAuth
-
-For Gmail and Outlook accounts, click **Re-authorize** if:
-
-- Your token has expired
-- You've changed your password
-- You've revoked permissions and want to re-grant them
 
 ## Contacts Tab
 ---
@@ -286,13 +280,24 @@ Click on a contact source to:
 - Update credentials
 - View sync status
 
-### Sync Now
+### Sync
 
-Click **Sync Now** to immediately fetch contacts from a source.
+Click **Sync** to immediately fetch contacts from a source.
+
+### Force Re-Sync
+
+Click **Force re-sync** to immediately re-fetch all contacts from a source.
 
 ### Remove Contact Source
 
-Click **Remove** to stop syncing from a contact source. Previously synced contacts remain available until the next restart.
+Click **Delete** to stop syncing from a contact source. Previously synced contacts remain available until the next restart.
+
+## Extensions
+---
+
+This is a 1st party extension system. It doesn't allow for community or 3rd party development of extensions yet. Whether or not the extension system will be opened up to the community or 3rd parties will depend on future demands. Currently, the extension system is meant to make it possible for Aerion to stay a lightweight e-mail only client but at the same time be able to provide features that only specific power users want such as contacts management, calendar management and more in the future.
+
+In this tab, you can enable **Contacts** and/or **Calendar** extensions. Each extension has its own settings dialog. More documentation will come in the future.
 
 ## About Tab
 ---
