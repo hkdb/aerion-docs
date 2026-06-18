@@ -46,6 +46,18 @@ const sidebars: SidebarsConfig = {
         'features/contacts',
         'features/keyboard-shortcuts',
         'features/settings',
+        {
+          type: 'category',
+          label: 'Extensions',
+          link: {
+            type: 'doc',
+            id: 'features/extensions/index',
+          },
+          items: [
+            'features/extensions/contacts',
+            'features/extensions/calendar',
+          ],
+        },
       ],
     },
     'faq',

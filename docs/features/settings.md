@@ -292,12 +292,16 @@ Click **Force re-sync** to immediately re-fetch all contacts from a source.
 
 Click **Delete** to stop syncing from a contact source. Previously synced contacts remain available until the next restart.
 
+### oAuth Credentials
+
+Right below all the accounts, you will see a section labled **oAuth Credentials**. This is where you can change the Client ID and Secret of what Microsoft and Google uses for Aerion in runtime.
+
 ## Extensions
 ---
 
 This is a 1st party extension system. It doesn't allow for community or 3rd party development of extensions yet. Whether or not the extension system will be opened up to the community or 3rd parties will depend on future demands. Currently, the extension system is meant to make it possible for Aerion to stay a lightweight e-mail only client but at the same time be able to provide features that only specific power users want such as contacts management, calendar management and more in the future.
 
-In this tab, you can enable **Contacts** and/or **Calendar** extensions. Each extension has its own settings dialog. More documentation will come in the future.
+In this tab, you can enable **Contacts** and/or **Calendar** extensions. Each extension has its own settings dialog. To learn more, see the [Extensions](/docs/features/extensions) section.
 
 ## About Tab
 ---

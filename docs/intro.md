@@ -55,6 +55,9 @@ While Linux is a first-class citizen, Aerion also runs on:
 - Comprehensive keyboard shortcuts
 - Light and dark themes
 - S/MIME and PGP support
+- 1st party extension system:
+    - Contacts - ALPHA
+    - Calendar - ALPHA
 
 ## Open Source
 
