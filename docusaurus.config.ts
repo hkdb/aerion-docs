@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://aerion.example.com',
+  url: 'https://aerion.3df.io',
   baseUrl: '/',
 
   organizationName: 'hkdb',
