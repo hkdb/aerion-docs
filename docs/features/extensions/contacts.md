@@ -25,4 +25,4 @@ To sync contacts on demand, click the footer at the bottom of the Contacts sideb
 
 ## Known Issues
 
-- Microsoft 365 organization contacts sync is not yet implemented.
+- Microsoft 365 organization contacts sync has known [issues](https://github.com/hkdb/aerion/issues/278).

@@ -25,5 +25,4 @@ To sync calendar events on demand, click the footer at the bottom of the Calenda
 
 ## Known Issues
 
-- Free/Busy is not complete.
 - All providers (CalDAV, Google, and Microsoft) rely on the server to send and parse invites. If your provider isn't set up to handle invites server-side, invitations may appear somewhat broken.
