@@ -109,11 +109,11 @@ No. Aerion doesn't currently support client-side email filtering. Set up rules t
 
 ### Does Aerion support calendar integration?
 
-Not currently. Calendar integration is in the roadmap to ship as a disabled by default plugin in the future so as to keep Aerion minimalist by default but extensible enough to do much more.
+As of v0.3.0, Aerion is shipped with a calendar extension disabled by default. Users can enable it to integrate Calendar workflow.
 
 ### Where can I see my synced contacts?
 
-There's currently no way to see the synced contacts in the UI. The purpose of the sync is solely for auto-completing the to/cc/bcc fields in the composer. The assumption is you will manage your contacts via another contacts specific app. In the future, this is also being considered to be a feature shipped as a disabled by default plugin for those who want this capability inside Aerion.
+Aerion by default only syncs and read contacts for auto-completion. However, it's shipped with a disabled by default contacts management extension which can be enabled by users to fully manage their contacts.
 
 ## Technical
 
