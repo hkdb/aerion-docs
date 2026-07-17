@@ -72,6 +72,12 @@ From the subject field, if you press tab, it will automatically focus on the bod
 
 The same remote image bar as the conversation viewer appears here to continuing blocking images when you reply or forward messages. If you load images prior to clicking reply, The bar won't be rendered and images will be automatically loaded. Image blocking is just to protect you as an Aerion user. They will all still be sent to your recipient(s) as originally composed.
 
+### Spellcheck
+
+English spellcheck is enabled by default. For other supported languages, you have to turn on the dictionary of the language that you need support for in the **Compose** tab of the settings dialog.
+
+To get the context menu to get spelling suggestions or to add custom words to your dictionary, or to mark certain words to ignore for the e-mail you are currently composing, you can either right click words that are marked with a red squiggly line or press **F7** to toggle the same context menu for the closest word to the left that's marked with a red squiggly line.
+
 ## Plain Text Mode
 
 Toggle to plain text mode when you need:

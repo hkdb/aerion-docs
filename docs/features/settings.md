@@ -89,6 +89,10 @@ Enabled by default.
 
 This is where you can disable the colored contact circles in the conversation viewer if you think the contact circles are unneccesary noise.
 
+### Show contact photos in message list
+
+Show the contact's profile picture (falling back to a colored circle) in the message list. Requires "Show colored circles in message list".
+
 ### Accent bar for unread messages
 
 This puts a left side bar marker based on your themes secondary color to each unread message for better visual grepping of what's read and unread if enabled. This feature is disabled by default. The only difference between read and unread is bold versus normal text by default (when disabled).
@@ -162,6 +166,21 @@ Configure how Aerion handles read receipt requests:
 - **Never send** - Ignore all read receipt requests
 - **Ask** - Prompt when a sender requests a read receipt
 - **Always send** - Automatically send read receipts
+
+### Spellcheck
+
+This is the configuration for the spellcheck functionality. Currently, spellcheck only supports languages that use Latin alphabet. Spellcheck with the English language is turned on by default. You can turn this feature completely off by toggling it off. If you need spellcheck support for languages other than English, toggle the language you need on under the **Dictionary** sub-section. Here are the currently supported languages:
+
+- English
+- Čeština
+- Deutsch
+- Français
+- Italiano
+- Norsk Bokmål
+
+#### Added words
+
+This is where you can view and edit the custom words that are added to your dictionary as legitimate words.
 
 ## Images Tab
 ---
