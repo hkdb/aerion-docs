@@ -26,3 +26,25 @@ sidebar_position: 3
 ## WebView2 Runtime
 
 Aerion requires the Microsoft Edge WebView2 Runtime. On Windows 11 and recent Windows 10 updates, this is pre-installed. If needed, download it from [Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/webview2/).
+
+## Community Maintained Repo
+
+### Chocolatey
+
+This is an unofficial package maintained by [@Infiniti151](https://github.com/Infiniti151). For any issues, please submit a Github issue directly to the [Infiniti151/aerion-chocolatey](https://github.com/Infiniti151/aerion-chocolatey) project.
+
+Standard:
+
+This pulls down the native setup utility, handles programmatic configuration, and hooks seamlessly into Windows Apps & Features.
+
+```bash
+choco install aerion
+```
+
+Portable:
+
+This downloads the raw, uncompressed execution binary directly into your localized Chocolatey application sandbox. It keeps your Windows registry completely untouched and instantly configures a global CLI command-line shortcut shim so aerion can be called from any terminal session immediately.
+
+```bash
+choco install aerion.portable
+```

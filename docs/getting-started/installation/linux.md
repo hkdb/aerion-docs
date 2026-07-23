@@ -80,8 +80,28 @@ export WEBKIT_DISABLE_DMABUF_RENDERER=1 && aerion
 
 If this solves the issues, make this environment variable permanent for the user.
 
-
 ## AppImage
 ---
 
 It was impossible to maintain an AppImage for a `webkit2gtk-4.1` dependent app that would be compatible with all distros. As such, the AppImage build has been removed from the release/distribution workflow.
+
+## Community Maintained Repos
+
+Some community members have been maintaining unofficial packages of Aerion for different package managers and distros. You can find them here:
+
+[![Packaging status](https://repology.org/badge/vertical-allrepos/aerion.svg)](https://repology.org/project/aerion/versions
+
+If there are any issues with these packages, please contact the respective maintainer. One known issue is that the various AUR versions of Aerion does not compile with Aerion's Microsoft and Google creds and therefore will not work with Google and Microsoft out of the box as expected. This is likely a problem for most community maintained packages with the exception of nixpkg.
+
+### Fedora COPR
+
+[infiniti151/flatpak-apps](https://copr.fedorainfracloud.org/coprs/infiniti151/flatpak-apps/)
+
+```bash
+sudo dnf copr enable infiniti151/flatpak-apps
+
+sudo dnf install aerion
+```
+
+maintained by: [@Infiniti151](https://github.com/Infiniti151)
+
