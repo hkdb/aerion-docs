@@ -27,9 +27,11 @@ sidebar_position: 3
 
 Aerion requires the Microsoft Edge WebView2 Runtime. On Windows 11 and recent Windows 10 updates, this is pre-installed. If needed, download it from [Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/webview2/).
 
-## Community Maintained Repo
+## Community Maintained Packages
 
 ### Chocolatey
+
+https://community.chocolatey.org/packages/aerion
 
 This is an unofficial package maintained by [@Infiniti151](https://github.com/Infiniti151). For any issues, please submit a Github issue directly to the [Infiniti151/aerion-chocolatey](https://github.com/Infiniti151/aerion-chocolatey) project.
 
