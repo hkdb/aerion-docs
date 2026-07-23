@@ -33,7 +33,7 @@ Aerion requires the Microsoft Edge WebView2 Runtime. On Windows 11 and recent Wi
 
 https://community.chocolatey.org/packages/aerion
 
-This is an unofficial package maintained by [@Infiniti151](https://github.com/Infiniti151). For any issues, please submit a Github issue directly to the [Infiniti151/aerion-chocolatey](https://github.com/Infiniti151/aerion-chocolatey) project.
+This is an unofficial package maintained by [@Infiniti151](https://github.com/Infiniti151). For any issues, please submit a Github issue directly at the [Infiniti151/aerion-chocolatey](https://github.com/Infiniti151/aerion-chocolatey) project.
 
 Standard:
 
