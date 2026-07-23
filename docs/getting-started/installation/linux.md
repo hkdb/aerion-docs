@@ -94,7 +94,7 @@ If there are any issues with these packages, please contact the respective maint
 
 ### Fedora COPR
 
-[infiniti151/flatpak-apps](https://copr.fedorainfracloud.org/coprs/infiniti151/flatpak-apps/)
+[infiniti151/flatpak-apps](https://copr.fedorainfracloud.org/coprs/infiniti151/flatpak-apps/package/aerion/)
 
 ```bash
 sudo dnf copr enable infiniti151/flatpak-apps
