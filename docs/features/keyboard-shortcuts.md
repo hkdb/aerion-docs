@@ -65,6 +65,8 @@ These shortcuts depend on which pane is focused. They are disabled when typing i
 |----------|--------|
 | `Up` / `K` | Navigate to previous folder |
 | `Down` / `J` | Navigate to next folder |
+| `Alt+G` | Jump to All Inboxes |
+| `Alt+Shift+G` | Jump to the last expanded folder or account |
 | `Alt + Enter` / `Space` | Expand/collapse account (when account header is focused) |
 | `Alt(L) + Alt(R)` | Brings up context menu for the focused folder |
 
@@ -74,6 +76,8 @@ These shortcuts depend on which pane is focused. They are disabled when typing i
 |----------|--------|
 | `Up` / `K` | Select previous conversation |
 | `Down` / `J` | Select next conversation |
+| `G` | Jump to first message on list |
+| `Shift+G` | Jump to last loaded message on list |
 | `Shift+Up` / `Shift+K` | Select previous + toggle checkbox |
 | `Shift+Down` / `Shift+J` | Select next + toggle checkbox |
 | `Space` | Toggle checkbox on current conversation |
@@ -81,6 +85,8 @@ These shortcuts depend on which pane is focused. They are disabled when typing i
 | `D` | Delete selected/checked message(s) — move to Trash (same as `Delete`) |
 | `CTRL+A` | Select all messages in folder |
 | `Alt(R)` | Brings up context menu for the selected message(s) |
+| `Alt+C` | Toggles copy to dialog |
+| `Alt+M` | Toggle move to dialog |
 
 ### Conversation Viewer
 

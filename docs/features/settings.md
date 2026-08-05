@@ -73,6 +73,18 @@ There are two schools of preferences for dark mode. One is to have dark UI but l
 
 When this toggle is turned on, each message will render in dark mode and have a ☀️ icon on the right side of the header which you can click on to temporarily render the email in light mode in case the dark mode filter breaks the e-mail rendering.
 
+### Dark composer body
+
+Use a dark background for the composer message body when Aerion is in dark mode.
+
+By default, the e-mail content inside the conversation viewer will always have a white background. However, if you prefer having a dark background when using a dark theme, you can turn this setting on.
+
+### Always show checkbox next to message
+
+Reserve a fixed checkbox column in the message list instead of revealing it on hover or swipe.
+
+By default, inside the message list column, the area where the checkbox on the left of the message is located is covered by the message and on mouseover, the message will shift to the right and show that area. In mobile layout, swiping to the right will auto select the message which solves the problem of not being able to do mouse over on a mobile device. If you prefer the original design where the checkbox area is always shown with the checkboxes always visiable in mobile layout, toggle this setting on.
+
 ### Show colored circles in message list
 
 Show colored circles with sender initials in the message list.

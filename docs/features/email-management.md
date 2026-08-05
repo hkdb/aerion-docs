@@ -73,8 +73,8 @@ When viewing a message or with a message selected:
 | Archive | Click Archive button or `Ctrl+K` |
 | Move to Trash | Click Trash button or `Delete` |
 | Mark as Spam | Click Spam button or `Ctrl+J` |
-| Copy to Folder | Right-click > Copy to or Right Alt > Copy to |
-| Move to Folder | Right-click > Move to or Right Alt > Move to |
+| Copy to Folder | Right-click > Copy to or Right Alt > Copy to or `Alt+C` |
+| Move to Folder | Right-click > Move to or Right Alt > Move to or `Alt+M` |
 | Thread Focus Mode | `F` |
 | Message Focus Mode | `Shift+F` |
 
@@ -93,6 +93,13 @@ Select multiple messages to apply actions in bulk:
 Then apply any action - it will apply to all selected messages.
 
 **Tip:** Press `Escape` once to clear all checkboxes.
+
+## Swipe Gestures
+
+Aerion has some basic swipe gestures:
+
+- Right: select message
+- Left: delete message
 
 ## Search
 
