@@ -27,6 +27,7 @@ Choose the language you want the UI to use. Currently, Aerion supports:
 - **Français**     | Thanks to [freemans32](https://github.com/freemans32)
 - **Italiano**     | Thanks to [YacineBoussoufa](https://github.com/YacineBoussoufa)
 - **Norsk Bokmål** | Thanks to [dexblasnoot](https://github.com/dexblasnoot)
+- **Polski**       | Thanks to [aquilapl](https://github.com/aquilapl)
 - **Vietnamese**   | Thanks to [0jar](https://github.com/0jar)
 - **中文（香港)**
 - **中文 (台湾)**
