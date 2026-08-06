@@ -101,6 +101,9 @@ Aerion has some basic swipe gestures:
 - Right: select message
 - Left: delete message
 
+For laptop trackpads, swipe with 2 fingers.
+For mobile layout, swipe with 1 finger.
+
 ## Search
 
 Find emails quickly with the search bar:
