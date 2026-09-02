@@ -47,7 +47,7 @@ Extensions that connect to Google or Microsoft use their own OAuth client creden
 **Google**
 
 - **Aerion - Google (Testing)** — the default. A temporary testing client for extensions. Adding the extensions' new scopes directly to Aerion core would force re-verification and disrupt core, so extensions use a separate Google testing project for now.
-- **Custom** — your own client ID and secret.
+- **Custom** — your own client ID and secret. See [Custom Google OAuth Credentials](/docs/getting-started/first-account/google-oauth-credentials).
 - **Aerion - Google** — the same credentials Aerion core uses.
 
 **Microsoft**

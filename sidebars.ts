@@ -32,6 +32,7 @@ const sidebars: SidebarsConfig = {
             'getting-started/first-account/gmail',
             'getting-started/first-account/outlook',
             'getting-started/first-account/other-providers',
+            'getting-started/first-account/google-oauth-credentials',
           ],
         },
       ],

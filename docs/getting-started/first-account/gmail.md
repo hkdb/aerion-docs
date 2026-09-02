@@ -11,6 +11,8 @@ Aerion supports Gmail through two authentication methods: OAuth (recommended) an
 
 OAuth is the easiest and most secure way to connect your Gmail account.
 
+To use your own OAuth Credentials, follow [this doc](/docs/getting-started/first-account/google-oauth-credentials).
+
 ### Steps
 
 1. Click **Sign in with Google**
